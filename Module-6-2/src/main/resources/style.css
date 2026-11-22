@@ -1,5 +1,19 @@
+/*.button {*/
+/*    -fx-background-color: #ff0000;*/
+/*    -fx-text-fill: #ffffff;*/
+/*    -fx-padding: 20px;*/
+/*}*/
+
+.root {
+    -fx-font-family: "Roboto", "Arial", sans-serif;
+    -fx-font-size: 15px;
+    -fx-background-color: #BDE67C;
+}
+
+.label {
+    -fx-font-weight: bold;
+}
+
 .button {
-    -fx-background-color: #ff0000;
-    -fx-text-fill: #ffffff;
-    -fx-padding: 20px;
+    -fx-padding: 8px 15px;
 }
