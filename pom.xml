@@ -11,6 +11,7 @@
     <modules>
         <module>Module-6-1</module>
         <module>Module-6-2</module>
+        <module>Module-6-3</module>
     </modules>
 
     <properties>
