@@ -5,8 +5,8 @@ import utils.Direction;
 import view.GraphicsDemo;
 
 public class Controller {
-    private Player player;
-    private GraphicsDemo gui;
+    private final Player player;
+    private final GraphicsDemo gui;
 
     public Controller(GraphicsDemo gui) {
         this.player = new Player(0, 0);
@@ -28,6 +28,6 @@ public class Controller {
     }
 
     public int getGridSize() {
-        return player.getGridSize();
+        return Player.getGridSize();
     }
 }
