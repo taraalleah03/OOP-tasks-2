@@ -6,12 +6,16 @@
       <option name="myIgnoreVendorSpecificProperties" value="false" />
       <option name="myCustomPropertiesList">
         <value>
-          <list size="5">
+          <list size="9">
             <item index="0" class="java.lang.String" itemvalue="-fx-font-family" />
             <item index="1" class="java.lang.String" itemvalue="-fx-font-size" />
             <item index="2" class="java.lang.String" itemvalue="-fx-font-weight" />
             <item index="3" class="java.lang.String" itemvalue="-fx-padding" />
             <item index="4" class="java.lang.String" itemvalue="-fx-background-color" />
+            <item index="5" class="java.lang.String" itemvalue="-fx-background-image" />
+            <item index="6" class="java.lang.String" itemvalue="-fx-background-size" />
+            <item index="7" class="java.lang.String" itemvalue="-fx-background-repeat" />
+            <item index="8" class="java.lang.String" itemvalue="-fx-background-position" />
           </list>
         </value>
       </option>
