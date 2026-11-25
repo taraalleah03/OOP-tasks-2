@@ -1,7 +1,7 @@
-import view.BMI;
+import view.NotebookMain;
 
 public class Main {
     public static void main(String[] args) {
-        BMI.launch(BMI.class);
+        NotebookMain.launch(NotebookMain.class);
     }
 }
