@@ -41,6 +41,16 @@ public class NotebookController {
     }
 
     @FXML
+    private void editNote(){
+        Note selected = noteList.getSelectionModel().getSelectedItem();
+        if (selected != null) {
+            selected.setTitle(titleField.getText().trim());
+            selected.setText(contentArea.getText());
+            noteList.refresh();
+        }
+    }
+
+    @FXML
     private void deleteNote() {
         Note selected = noteList.getSelectionModel().getSelectedItem();
         if (selected != null) {

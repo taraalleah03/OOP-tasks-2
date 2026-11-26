@@ -35,6 +35,7 @@
       <HBox alignment="CENTER" prefHeight="38.0" prefWidth="600.0">
          <children>
             <Button onAction="#addNote" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Add Note" />
+            <Button onAction="#editNote" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Edit Note" />
             <Button onAction="#deleteNote" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Delete Note">
                <opaqueInsets>
                   <Insets />
